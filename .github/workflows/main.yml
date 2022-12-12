@@ -17,4 +17,4 @@ jobs:
           fetch-depth: 1
 
       - name: Building testing kernel
-        run: ./build.sh
+        run: chmod +x build.sh && ./build.sh
